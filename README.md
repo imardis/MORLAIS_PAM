@@ -8,7 +8,7 @@ The application of machine learning classifiers to data from passive acoustic mo
 
 ### Phase 1: Identification of Clicks
 
-- **Input:** Audio files from hierophones, saved as WAV files.
+- **Input:** Audio files from hydrophones, saved as WAV files.
 - The extraction of ecological clicks from these files, accomplished using PAMGuard software and signal processing, involves storing the information in binary files (PGDF extension).
 
 ### Phase 2: Labeling the Clicks
@@ -22,7 +22,7 @@ Skipping Phase 2 is possible when using a pre-trained intelligent classifier.
 
 ### Phase 3: Data Preparation
 
-- The design of a well-constructed dataset for machine learning involves combining PGDF binary files with SQLite files containing labels.
+- A well-constructed dataset for machine learning is designed by combining PGDF binary files with SQLite files containing labels.
 - The selection of desired labels and the retention of only relevant input and output data is performed. The organized dataset is then placed in a Data folder for simplicity.
 
 ## Machine Learning Model
@@ -37,6 +37,16 @@ The research explores the ability of machine learning models to identify marine 
 
 For new species or datasets, the training process must be repeated for optimal results.
 
-## Testing Phase
+## Folders
 
-Once trained, the model can effectively label unlabeled data.
+- **Data Folder:** Contains the data file extracted for the machine learning model.
+- **Model Folder:** Contains codes related to the machine learning model.
+- **Notebook Folder:** Contains corresponding Jupyter notebook files.
+
+## Performance Test
+
+To assess the performance of the Jupyter notebook file's model, see the **Testing Performance.ipynb**.
+
+## Future Development
+
+Considering the good performance of the model, it is suggested to explore further development opportunities.
