@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The application of machine learning classifiers to data from passive acoustic monitoring devices focuses on identifying marine species based on their unique sounds, known as ecological clicks. The work emphasizes the separation of species, particularly bottlenose dolphins and Rizzo dolphins, in alignment with the MORLAIS project.
+The application of machine learning classifiers to data from passive acoustic monitoring devices focuses on identifying marine species based on their unique sounds, known as ecological clicks. The work emphasizes the separation of species, particularly bottlenose dolphins and Risso's dolphins, in alignment with the MORLAIS project.
 
 ## Methodology
 
@@ -13,12 +13,12 @@ The application of machine learning classifiers to data from passive acoustic mo
 
 ### Phase 2: Labeling the Clicks
 
-- **Goal:** The creation of a labeled dataset for supervised learning models.
-- Using PAMGuard software, experts in marine biology check and label clicks within PGDF files based on waveform and frequency. This labeled data is then saved in a SQLite file.
+- **Goal:** The creation of a labelled dataset for supervised learning models.
+- Using PAMGuard software, experts in marine biology check and label clicks within PGDF files based on waveform and frequency. This labelled data is then saved in a SQLite file.
 
 #### Note:
 
-Skipping Phase 2 is possible when using a pre-trained intelligent classifier.
+Skipping Phase 2 is possible when using a pre-trained  classifier.
 
 ### Phase 3: Data Preparation
 
@@ -45,7 +45,7 @@ For new species or datasets, the training process must be repeated for optimal r
 
 ## Performance Test
 
-To assess the performance of the Jupyter notebook file's model, see the **Testing Performance.ipynb**.
+To assess the performance of the Jupyter Notebook file's model, see the **Testing Performance.ipynb**.
 
 ## Future Development
 
